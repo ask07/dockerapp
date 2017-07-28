@@ -6,6 +6,5 @@ services:
       - "5000:5000"
     volumes:
       - ./app:/app
-
   redis:
     image: redis:3.2.0
